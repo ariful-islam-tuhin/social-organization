@@ -1,0 +1,14 @@
+.header {
+  background-color: rgb(9, 102, 71);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+.AllPersonContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.single-container {
+  display: grid;
+  grid-template-columns: repeat(3);
+}
