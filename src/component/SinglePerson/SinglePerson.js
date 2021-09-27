@@ -1,5 +1,9 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faBirthdayCake } from "@fortawesome/free-solid-svg-icons";
 import "./SinglePerson.css";
+
+const element = <FontAwesomeIcon icon={faBirthdayCake} />;
 
 const SinglePerson = (props) => {
   const { id, name, address, salary, phone, picture } = props.person;
@@ -16,7 +20,7 @@ const SinglePerson = (props) => {
           onClick={() => props.handleAddToCart(props.person)}
           className="button-design"
         >
-          add to card
+          {element} add to card
         </button>
       </div>
     </div>
