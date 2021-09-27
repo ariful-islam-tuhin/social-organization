@@ -1,0 +1,9 @@
+.card {
+  background-color: rgb(75, 72, 72);
+  color: white;
+  margin-top: 5px;
+  padding: 10px;
+  position: fixed;
+  width: 370px;
+  margin-top: 2px;
+}

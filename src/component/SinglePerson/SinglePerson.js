@@ -9,9 +9,9 @@ const SinglePerson = (props) => {
         <img className="sImage" src={picture} alt="" />
         <h3>{name}</h3>
         <p>
-          age:{age}, gender:{gender}
+          age:{age}&nbsp;&nbsp; gender:{gender}
         </p>
-        <p>{company}</p>
+        <p>company: {company}</p>
         <p>{email}</p>
         <button
           onClick={() => props.handleAddToCart(props.person)}

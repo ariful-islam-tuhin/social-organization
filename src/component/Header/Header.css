@@ -1,9 +1,17 @@
 .navigation a {
   text-decoration: none;
   margin: 0px 50px 0px 50px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .navigation {
-  background-color: rgb(5, 110, 110);
-  padding: 5px;
+  background-color: rgb(75, 72, 72);
+  padding: 15px;
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.912);
+  color: white;
+}
+.header p {
+  width: 50%;
+  margin: auto;
 }

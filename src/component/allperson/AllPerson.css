@@ -5,10 +5,14 @@
   padding: 10px;
 }
 .AllPersonContainer {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
+  width: 100%;
+  display: flex;
 }
 .single-container {
+  width: 75%;
   display: grid;
-  grid-template-columns: repeat(3);
+  grid-template-columns: repeat(3, 1fr);
+}
+.cart-container {
+  width: 25%;
 }

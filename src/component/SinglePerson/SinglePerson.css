@@ -1,12 +1,16 @@
 .singlePerson {
-  background-color: rgb(9, 158, 121);
+  background-color: rgb(195, 253, 239);
   padding: 20px;
   margin: 1px;
   display: grid;
   grid-template-columns: repeat(3) 1fr;
 }
 .button-design {
-  background-color: rgb(91, 190, 10);
+  margin-top: 5px;
+  padding: 5px 6px;
+  border-radius: 10px;
+  background-color: rgb(75, 72, 72);
+  color: white;
 }
 
 h3,
