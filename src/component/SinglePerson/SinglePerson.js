@@ -1,9 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee, faBirthdayCake } from "@fortawesome/free-solid-svg-icons";
+import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import "./SinglePerson.css";
 
-const element = <FontAwesomeIcon icon={faBirthdayCake} />;
+const element = <FontAwesomeIcon icon={faCartPlus} />;
 
 const SinglePerson = (props) => {
   const { id, name, address, salary, phone, picture } = props.person;
