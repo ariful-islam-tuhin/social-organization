@@ -3,7 +3,7 @@
   color: white;
   margin-top: 5px;
   padding: 10px;
-  position: fixed;
-  width: 370px;
+  overflow: scroll;
+
   margin-top: 2px;
 }

@@ -6,6 +6,7 @@ import "./AllPerson.css";
 const AllPerson = () => {
   const [persons, setPersons] = useState([]);
   const [cart, setCart] = useState([]);
+  // const [salary, setSalary] = useState([]);
 
   useEffect(() => {
     fetch("./datas.JSON")
@@ -16,6 +17,8 @@ const AllPerson = () => {
   const handleAddToCart = (person) => {
     const newCart = [...cart, person];
     setCart(newCart);
+    // const newSalary = [...cart, person];
+    // setSalary(newSalary);
   };
 
   return (
@@ -24,7 +27,7 @@ const AllPerson = () => {
         <div className="single-container">
           {persons.map((person) => (
             <SinglePerson
-              key={person._id}
+              key={person.id}
               person={person}
               handleAddToCart={handleAddToCart}
             ></SinglePerson>

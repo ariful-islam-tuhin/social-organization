@@ -2,17 +2,16 @@ import React from "react";
 import "./SinglePerson.css";
 
 const SinglePerson = (props) => {
-  const { name, picture, age, gender, company, email } = props.person;
+  const { id, name, address, salary, phone, picture } = props.person;
   return (
     <div className="singlePerson">
       <div>
         <img className="sImage" src={picture} alt="" />
         <h3>{name}</h3>
-        <p>
-          age:{age}&nbsp;&nbsp; gender:{gender}
-        </p>
-        <p>company: {company}</p>
-        <p>{email}</p>
+        <p>Id:{id}</p>
+        <p>address: {address}</p>
+        <p>Salary:{salary}</p>
+        <p> Phone:{phone}</p>
         <button
           onClick={() => props.handleAddToCart(props.person)}
           className="button-design"
